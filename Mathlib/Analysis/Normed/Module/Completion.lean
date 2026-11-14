@@ -94,7 +94,7 @@ instance [hdnf : DenselyNormedField A] [CompletableTopField A] :
   __ : NormedField (UniformSpace.Completion A) := inferInstance
   lt_norm_lt x y hx hxy := by
     obtain ⟨z, hz⟩ := hdnf.lt_norm_lt x y hx hxy
-    exact ⟨z, by simpa only [UniformSpace.Completion.norm_coe] using hz⟩
+    exact ⟨z, by simpa using hz⟩
 
 end Algebra
 
