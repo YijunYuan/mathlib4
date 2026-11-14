@@ -5,10 +5,13 @@ Authors: Jiedong Jiang
 -/
 module
 
-public import Mathlib.Algebra.AlgebraicCard
-public import Mathlib.Analysis.Normed.Field.Krasner
+public import Mathlib.Analysis.Normed.Module.Basic
+public import Mathlib.FieldTheory.IsAlgClosed.Basic
+public import Mathlib.Topology.MetricSpace.Ultra.Basic
 
+import Mathlib.Algebra.AlgebraicCard
 import Mathlib.Analysis.Normed.Field.Approximation
+import Mathlib.Analysis.Normed.Field.Krasner
 
 /-!
 # Transfer properties from dense subfields
